@@ -1,4 +1,4 @@
-# BIM7AA branch 2.0
+# BIM7AA branch 2.1
 ![BIM7AA Logo](https://github.com/NicklasOestergaard/BIM7AA/raw/master/images/bim7aa_logo_150x212.png)
 
 > BIM7AA TYPE CODNING is a simpel and operational code structur for 
@@ -7,7 +7,7 @@
 > to manageable BIM projects.
 
 ## Use BIM7AA in Software ##
-This is branch 2.0.
+This is branch 2.1.
  - The master branch of BIM7AA-API corresponds to the curent version of BIM7AA type coding. To build against a specific version, choose that version's branch. I.e. 2.0, 2.1, etc.
  
 ### Read more abot BIM7aa ###
