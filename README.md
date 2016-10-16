@@ -1,4 +1,4 @@
-# BIM7AA branch
+# BIM7AA
 ![BIM7AA Logo](https://github.com/NicklasOestergaard/BIM7AA/raw/master/images/bim7aa_logo_150x212.png)
 
 > BIM7AA TYPE CODNING is a simpel and operational code structur for 
