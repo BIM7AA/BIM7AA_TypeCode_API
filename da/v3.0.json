@@ -149,7 +149,7 @@
           "271": "271 - Spærstage",
           "272": "272 - Tagkassetter",
           "273": "273 - Varme tage",
-          "274": "274 - Glastagssystemer\n",
+          "274": "274 - Glastagssystemer",
           "275": "275 - Mobile tage",
           "276": "276 - Baldakiner og overdækninger",
           "279": "279 - Øvrige tagværker"
@@ -424,19 +424,68 @@
       },
       "53": {
         "53 - Vand (koldt/varmt vand, behandlet vand)": {
-          "531": "531 - Mekanisk udstyr",
-          "532": "532 - Vandtilslutninger",
-          "533": "533 - Vandbehandlingsanlæg",
-          "534": "534 - Barndskabe"
+          "531": {
+            "531 - Mekanisk udstyr": {
+              "5311": "5311 - Målearrangementer",
+              "5312": "5312 - Cirkulationspumper",
+              "5313": "5313 - Fordelerrør til vand",
+              "5314": "5314 - Trykforøgeranlæg"
+            }
+          },
+          "532": {
+            "532 - Vandtilslutninger": {
+              "5321": "5321 - Spulehane",
+              "5322": "5322 - Gårdhaner",
+              "5323": "5323 - Brandstigerør",
+              "5324": "5324 - Nødbrusere",
+              "5325": "5324 - Brusere",
+              "5326": "5326 - kipgryder",
+              "5327": "5327 - Aftapningshaner"
+            }
+          },
+          "533": {
+            "533 - Vandbehandlingsanlæg": {
+              "5331": "5331 - Klordioxidanlæg",
+              "5332": "5332 - Korrolyseanlæg",
+              "5333": "5333 - Produktion BBK",
+              "5334": "5334 - Produktions RO",
+              "5335": "5334 - Parafinrensere",
+              "5336": "5336 - Filtreringsanlæg"
+            }
+          },
+          "534": {
+            "534 - Brandskabe": {
+              "5341": "5341 - Brandslangevindere"
+            }
+          }
         }
       },
       "54": {
         "54 - Luftarter (gas, trykluft, vakuum, damp)": {
-          "541": "541 - Mekanisk udstyr",
+          "541": {
+            "541 - Vandbehandlingsanlæg": {
+              "5411": "5411 - Overvågningsenheder",
+              "5412": "5412 - Nødspærringsbokse",
+              "5413": "5413 - Nødforsyningsenheder",
+              "5414": "5414 - Gasregulatorer",
+              "5415": "5415 - Målerarrangementer"
+            }
+          },
           "542": "542 - Luftartsudtag",
-          "543": "543 - Luftartsproducerende anlæg",
-          "544": "544 - Mekanisk udstyr",
-          "545": "545 - Mekanisk udstyr"
+          "543": {
+            "543 - Luftartsproducerende anlæg": {
+              "5431": "5331 - Trykluftskompressorer",
+              "5432": "5432 - Vakuumanlæg",
+              "5433": "5433 - Gasflasker",
+              "5434": "5434 - Tanke"
+            }
+          },
+          "545": {
+            "545 - Tilbehør": {
+              "5451": "5451 - Flaskegas regulatorer",
+              "5452": "5452 - NIST koblinger "
+            }
+          }
         }
       },
       "55": {
