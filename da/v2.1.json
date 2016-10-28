@@ -1,0 +1,548 @@
+﻿{
+   "0": {
+     "0 - Generiske bygningsdele": {
+     "00": {
+     "00 - Generiske objekter": {
+       "001": "001 - Generisk objekt ARK",
+       "002": "002 - Generisk objekt KON",
+       "003": "003 - Generisk objekt VENT",
+       "004": "004 - Generisk objekt VVS",
+       "005": "005 - Generisk objekt EL",
+       "006": "006 - Generisk objekt LAND"
+     }
+     },
+     "01": {
+     "01 - Generiske bygningsdele": {
+       "011": "011 - Generiske vægge og fundamenter",
+       "012": "012 - Generiske gulv eller dæk",
+       "013": "013 - Generiske tage",
+       "014": "014 - Generiske åbninger",
+       "015": "015 - Generiske søjler og bjælker",
+       "016": "016 - Generiske lofter",
+       "017": "017 - Generiske trappe-og rampeelementer",
+       "018": "018 - Generiske værn og håndlister",
+       "019": "019 - Generiske vinduesfacadesystemer"
+     }
+     },
+     "02": {
+     "02 - Eksisterende bygningsdele": {
+       "021": "021 - Eksisterende vægge og fundamenter",
+       "022": "022 - Eksisterende gulv eller dæk",
+       "023": "023 - Eksisterende tage",
+       "024": "024 - Eksisterende åbninger",
+       "025": "025 - Eksisterende søjler og bjælker",
+       "026": "026 - Eksisterende lofter",
+       "027": "027 - Eksisterende trappe-og rampeelementer",
+       "028": "028 - Eksisterende værn og håndlister",
+       "029": "029 - Eksisterende vinduesfacadesystemer"
+     }
+     }
+   }
+   },
+   "1": {
+   "1 - Bygningsbasis": {
+     "10": {
+     "10 - Bygningsbasis, terræn": {
+       "101": "101 - Forberedt grund",
+       "102": "102 - Byggegrube inkl. afstivning",
+       "103": "103 - Spunsvægge"
+     }
+     },
+     "12": {
+     "12 - Fundamenter": {
+       "121": "121 - Liniefundamenter",
+       "122": "122 - Punktfundamenter",
+       "123": "123 - Pladefundamenter",
+       "124": "124 - Opmurede fundamenter",
+       "125": "125 - Maskinfundamenter",
+       "126": "126 - Pælefundamenter og brøndfundamenter",
+       "127": "127 - Fundamenter i terræn"
+     }
+     },
+     "13": {
+     "13 - Terrændæk, bygning": {
+       "131": "131 - Terrændæk"
+     }
+     },
+     "18": {
+     "18 - Bygningsbasis bygning, øvrige": {
+       "181": "181 - Kanaler under terrændæk",
+       "182": "182 - Gruber og sumpe"
+     }
+     }
+   }
+   },
+   "2": {
+   "2 - Primære bygningsdele": {
+     "20": {
+     "20 - Primære bygningsdele, terræn": {
+       "201": "201 - Hegnsmure",
+       "202": "202 - Støttemure",
+       "203": "203 - Teknikgange i terræn inkl. rørbroer og tunneler",
+       "204": "204 - Fodgængerbroer, viadukter m.m.",
+       "205": "205 - Trapper og ramper i terræn"
+     }
+     },
+     "21": {
+     "21 - Ydervægge, primære bygningsdele": {
+       "211": "211 - Udvendige vægelementer",
+       "212": "212 - Udvendige pladsstøbte vægge",
+       "213": "213 - Udvendige opmurede vægge",
+       "214": "214 - Udvendige skeletkonstruerede vægge",
+       "215": "215 - Udvendige skeletkonstruerede vægskørter",
+       "216": "216 - Udvendige vinduesfacadesystemer",
+       "217": "217 - Udvendige isoleringsvægsystemer",
+       "218": "218 - Udvendige lyskasser"
+     }
+     },
+     "22": {
+     "22 - Indervægge, primære bygningsdele": {
+       "221": "221 - Indvendige vægelementer",
+       "222": "222 - Indvendige pladsstøbte vægge",
+       "223": "223 - Indvendige opmurede vægge",
+       "224": "224 - Indvendige skeletkonstruerede vægge",
+       "225": "225 - Indvendige skeletkonstruerede vægskørter",
+       "226": "226 - Indvendige glassystemvægge"
+     }
+     },
+     "23": {
+     "23 - Dæk, primære bygningsdele": {
+       "231": "231 - Dækelementer",
+       "232": "232 - Pladsstøbte dæk",
+       "233": "233 - Skeletkonstruerede dæk",
+       "234": "234 - Afretningslag",
+       "239": "239 - Øvrige dæk"
+     }
+     },
+     "24": {
+     "24 - Trapper og ramper, primære bygningsdele": {
+       "241": "241 - Elementtrapper",
+       "242": "242 - Pladsstøbte trapper",
+       "243": "243 - Sammensatte trapper",
+       "244": "244 - Element ramper",
+       "245": "245 - Pladsstøbte ramper",
+       "246": "246 - Sammensatte ramper",
+       "247": "247 - Faste stiger, lejdere og trin"
+     }
+     },
+     "25": {
+     "25 - Bærende bjælker og søjler": {
+       "251": "251 - Elementbjælker",
+       "252": "252 - Pladsstøbte bjælker",
+       "253": "253 - Stålbjælker",
+       "254": "254 - Øvrige bjælker",
+       "255": "255 - Elementsøjler",
+       "256": "256 - Pladsstøbte søjler",
+       "257": "257 - Stålsøjler",
+       "259": "259 - Øvrige søjler"
+     }
+     },
+     "26": {
+     "26 - Altaner og altangange, primære bygningsdele": {
+       "261": "261 - Elementaltaner og altangange",
+       "262": "262 - Pladsstøbte altaner og altangange",
+       "263": "263 - Sammmensatte altaner og altangange"
+     }
+     },
+     "27": {
+     "27 - Tage, primære bygningsdele": {
+       "271": "271 - Spærstage",
+       "272": "272 - Tagkassetter",
+       "273": "273 - Varme tage",
+       "274": "274 - Vinduessystemtag",
+       "275": "275 - Flytbare tage",
+       "276": "276 - Baldakiner og overdækninger",
+       "279": "279 - Øvrige tagværker"
+     }
+     },
+     "28": { "28 - Primære bygningsdele, øvrige": {} }
+   }
+   },
+   "3": {
+     "3 - Kompletterende bygningsdele": {
+     "30": {
+     "30 - Kompletterende bygningsdele, terræn": {
+       "301": "301 - Hegn, afskærmning",
+       "302": "302 - Komplettering trapper, ramper i terræn"
+     }
+     },
+     "31": {
+     "31 - Ydervægge, komplettering": {
+       "311": "311 - Udvendige døre ",
+       "312": "312 - Udvendige vinduer",
+       "313": "313 - Udvendige døre, vinduesfacadesystemer",
+       "314": "314 - Udvendige vinduesopluk, vinduesfacadesystemer",
+       "315": "315 - Udvendige ruder, blændfelter og karmprofiler, vinduesfacadesystemer",
+       "316": "316 - Udvendige porte og karusseldøre",
+       "317": "317 - Ydervægge, afskærmninger",
+       "319": "319 - Øvrig ydervæg komplettering"
+     }
+     },
+     "32": {
+     "32 - Indervægge, komplettering": {
+       "321": "321 - Indvendige døre",
+       "322": "322 - Indvendige vinduer, luger og lemme",
+       "323": "323 - Indvendige døre, glassystemvægge",
+       "324": "324 - Indvendige vinduesopluk, glassystemvægge",
+       "325": "325 - Indvendige ruder, blændfelter og karmprofiler, glassystemvægge",
+       "326": "326 - Indvendige porte og karruseldøre",
+       "327": "327 - Bevægelige indervægge",
+       "328": "328 - Indervægge, afskærmning",
+       "329": "329 - Øvrig indervæg komplettering"
+     }
+     },
+     "33": {
+     "33 - Dæk, komplettering": {
+       "331": "331 - Opbyggede gulve",
+       "332": "332 - Svømmende gulve",
+       "333": "333 - Lemme, riste, måtterammer",
+       "334": "334 - Støbte gulve",
+       "335": "335 - Opbyggede belægninger",
+       "336": "336 - Lydabsorbenter",
+       "339": "339 - Øvrig dækkomplettering"
+     }
+     },
+     "34": {
+     "34 - Trapper og ramper, komplettering": {
+       "341": "341 - Gelændere, rækværker og håndlister udvendige",
+       "342": "342 - Gelændere, rækværker og håndlister indvendige",
+       "343": "343 - Riste, måtterammer",
+       "349": "349 - Øvrig trappekomplettering"
+     }
+     },
+     "35": {
+     "35 - Lofter, komplettering": {
+       "351": "351 - Indvendige nedhængte lofter",
+       "352": "352 - Udvendige nedhængte lofter",
+       "353": "353 - Indvendige påbyggede lofter",
+       "354": "354 - Udvendige påbyggede lofter",
+       "355": "355 - Indvendige loftskørter",
+       "356": "356 - Udvendige loftskørter",
+       "357": "357 - Lydabsorbenter"
+     }
+     },
+     "36": {
+     "36 - Altaner, komplettering": {
+       "361": "361 - Rækværker, brystninger"
+     }
+     },
+     "37": {
+     "37 - Tage, komplettering": {
+       "371": "371 - Kviste",
+       "372": "372 - Ovenlys, røg- og taglemme",
+       "373": "373 - Solskærme til ovenlys",
+       "374": "374 - Sikring",
+       "375": "375 - Brandkamserstatning",
+       "376": "376 - Inddækninger",
+       "377": "377 - Belægninger på færdige tagflader"
+     }
+     },
+     "38": {
+     "38 - Kompletterende bygningsdele bygning, øvrige": {}
+     }
+   }
+   },
+   "4": {
+   "4 - Overfladebygningsdele": {
+     "41": {
+     "41 - Udvendige vægoverflader": {
+       "411": "411 - Malerbehandlinger",
+       "412": "412 - Beklædninger, påmurede",
+       "413": "413 - Beklædninger, monteret"
+     }
+     },
+     "42": {
+     "42 - Indvendige vægoverflader": {
+       "421": "421 - Malerbehandlinger",
+       "422": "422 - Beklædninger, påmurede",
+       "423": "423 - Beklædninger, monteret"
+     }
+     },
+     "43": {
+     "43 - Dæk- og gulvoverflader": {
+       "431": "431 - Malerbehandlinger",
+       "432": "432 - Beklædninger, påmurede",
+       "433": "433 - Beklædninger, monteret"
+     }
+     },
+     "44": {
+     "44 - Trapper og ramper, overflader": {
+       "441": "441 - Malerbehandlinger",
+       "442": "442 - Beklædninger, påmurede",
+       "443": "443 - Beklædninger, monteret"
+     }
+     },
+     "45": {
+     "45 - Lofter, overflader": {
+       "451": "451 - Malerbehandlinger",
+       "452": "452 - Beklædninger, påmurede",
+       "453": "453 - Beklædninger, monteret"
+     }
+     },
+     "46": {
+     "46 - Altaner, overflader": {
+       "461": "461 - Malerbehandlinger",
+       "462": "462 - Beklædninger, påmurede",
+       "463": "463 - Beklædninger, monteret"
+     }
+     },
+     "47": {
+     "47 - Tage, overflader": {
+       "471": "471 - Malerbehandlinger",
+       "472": "472 - Tagdækning"
+     }
+     },
+     "48": {
+     "48 - Overflader bygning, øvrige": {}
+     }
+     }
+   },
+   "5": {
+   "5 - VVS- og ventilationsanlæg": {
+     "50": {
+     "50 - VVS-anlæg, terræn": {
+       "501": "501 - Brønde",
+       "502": "502 - Øvrige tilbehør"
+     }
+     },
+     "51": {
+     "51 - Logistik": {}
+     },
+     "52": {
+     "52 - Afløb og sanitet": {
+       "521": "521 - Afløb o.lign tilbehør",
+       "522": "522 - Toilet og bad",
+       "523": "523 - Vaske og haner",
+       "524": "524 - Afløbstilslutning til udstyr",
+       "525": "525 - Øvrige afløb og sanitet"
+     }
+     },
+     "53": {
+     "53 - Vand (koldt/varmt vand, behandlet vand)": {
+       "531": "531 - Mekanisk udstyr"
+     }
+     },
+     "54": {
+     "54 - Luftarter (gas, trykluft, vakuum, damp)": {
+       "541": "541 - Mekanisk udstyr"
+     }
+     },
+     "55": {
+     "55 - Køling": {
+       "551": "551 - Mekanisk udstyr"
+     }
+     },
+     "56": {
+     "56 - Varmesystem": {
+       "561": "561 - Varmegivere",
+       "562": "562 - Fyr",
+       "563": "563 - Øvrige mekanisk udstyr"
+     }
+     },
+     "57": {
+     "57 - Ventilationsanlæg": {
+       "571": "571 - Runde og rektangulære kanaler",
+       "572": "572 - Øvrige kanaler",
+       "573": "573 - Kanal tilbehør",
+       "574": "574 - Anlæg, køle/varme flader veksler",
+       "575": "575 - Ventilator",
+       "576": "576 - Armatur",
+       "577": "577 - Ventiler",
+       "578": "578 - Tilslutninger til udstyr",
+       "579": "579 - Taghætter / gennemføringer"
+     }
+     },
+     "58": {
+     "58 - Sprinkleranlæg": {
+       "581": "581 - Tilbehør",
+       "582": "582 - Mekanisk udstyr"
+     }
+     },
+     "59": {
+     "59 - Tværgående komponenter, VVS": {
+       "591": "591 - Metal rør. (Stål, kobber, alu osv.)",
+       "592": "592 - Plastik rør o.lign.",
+       "593": "593 - Øvrige rør",
+       "594": "594 - Statisk ventiler",
+       "595": "595 - Dynamisk ventiler",
+       "596": "596 - Motordrevne rørtilbehør",
+       "597": "597 - Målere, filtre og øvrige",
+       "598": "598 - Isoleringsarbejde"
+     }
+     }
+   }
+     },
+   "6": {
+   "6 - El- og mekaniske anlæg": {
+     "60": {
+     "60 - Terræn": {
+       "601": "601 - Ledninger",
+       "602": "602 - Belysning",
+       "603": "603 - Installation for anlæg under terræn",
+       "604": "604 - Installation for anlæg på terræn",
+       "605": "605 - Trafikstyring"
+     }
+     },
+     "61": {
+     "61 - Føringsveje": {
+       "611": "611 - Fremføringsveje",
+       "612": "612 - Huller og udsparinger",
+       "613": "613 - Brand- og lydtætninger"
+     }
+     },
+     "62": {
+     "62 - Højspænding": {
+       "621": "621 - Forsyning",
+       "622": "622 - Fordeling",
+       "623": "623 - Installationer for apparater og maskiner",
+       "624": "624 - Sekundær højspænding"
+     }
+     },
+     "63": {
+     "63 - Lavspænding": {
+       "632": "632 - Fordeling",
+       "633": "633 - Installationer for apparater og maskiner",
+       "634": "634 - Termiske anlæg",
+       "635": "635 - Installationer for belysning",
+       "636": "636 - Belysningsarmaturer",
+       "637": "637 - Kraftinstallationer",
+       "638": "638 - Vedvarende energi - Intern forsyning"
+     }
+     },
+     "64": {
+     "64 - Kommunikation og information": {
+       "641": "641 - Kommunikation",
+       "642": "642 - Information",
+       "643": "643 - Audio, video og antenne",
+       "644": "644 - IT-infrastruktur"
+     }
+     },
+     "65": {
+     "65 - Sikring": {
+       "651": "651 - Adgangssikring",
+       "652": "652 - Sikringsanlæg",
+       "653": "653 - Personsikring"
+     }
+     },
+     "66": {
+     "66 - Bygningsautomation": {
+       "661": "661 - Managementsystemer",
+       "662": "662 - Central tilstandsstyring",
+       "663": "663 - Decentral tilstandsstyring"
+     }
+     },
+     "67": {
+     "67 - Beskyttelse": {
+       "671": "671 - Overspændingsbeskyttelse",
+       "672": "672 - Udligningsforbindelser",
+       "673": "673 - Katodisk Beskyttelse",
+       "674": "674 - EMI"
+     }
+     },
+     "68": {
+     "68 - Person- og materialetransport": {
+       "681": "681 - Persontransport",
+       "682": "682 - Gods- og materialetransport"
+     }
+     }
+     }
+   },
+   "7": {
+   "7 - Inventar og teknisk udstyr": {
+     "70": {
+     "70 - Inventar, terræn": {
+       "701": "701 - Tekniske inventarenheder",
+       "702": "702 - Tavler, skilte og skærme",
+       "703": "703 - Opbevaring, affaldsstativer, cykelstativer, postkasser",
+       "704": "704 - Bordmøbler",
+       "705": "705 - Siddemøbler",
+       "706": "706 - Afskærmninger",
+       "709": "709 - Øvrigt inventar i terræn"
+     }
+     },
+     "71": {
+     "71 - Inventar, fastmonteret": {
+       "711": "711 - Skabe, skuffer",
+       "712": "712 - Reoler, hylder",
+       "713": "713 - Siddemøbler, liggemøbler",
+       "714": "714 - Gardiner, persienner, skærmvægge, forhæng",
+       "715": "715 - Borde, bordplader",
+       "716": "716 - Skilte, tavler",
+       "717": "717 - Garniture",
+       "719": "719 - Øvrigt fastmonteret inventar"
+     }
+     },
+     "72": {
+     "72 - Inventar, løst": {
+       "721": "721 - Skabe, skuffer",
+       "722": "722 - Reoler",
+       "723": "723 - Siddemøbler, liggemøbler",
+       "724": "724 - Skærmvægge, forhæng",
+       "725": "725 - Borde",
+       "726": "726 - Stativer, hylder",
+       "727": "727 - Måtter, tæpper, løbere",
+       "729": "729 - Øvrigt løst inventar"
+     }
+     },
+     "73": {
+     "73 - Inventar, tekniske-, IT- og av-inventarenheder": {
+       "731": "731 - AV-udstyr",
+       "732": "732 - IT-udstyr",
+       "733": "733 - Belysning",
+       "734": "734 - Automater",
+       "735": "735 - Brandslukningsudstyr",
+       "736": "736 - Hårde hvidevarer"
+     }
+     }
+     }
+   },
+   "8": {
+   "8 - Beplantning og belægning": {
+     "80": {
+     "80 - Belægninger og befæstelser": {
+       "801": "801 - Asfalt belægninger",
+       "802": "802 - Betonstøbte belægninger",
+       "803": "803 - Gummibelægninger",
+       "804": "804 - Flise -og stenbelægninger",
+       "805": "805 - Skærver og grus",
+       "806": "806 - Kantbegrænsninger",
+       "807": "807 - Afstribning",
+       "809": "809 - Øvrige belægninger og befæstelser"
+     }
+     },
+     "81": {
+     "81 - Beplantning": {
+       "811": "811 - Træer",
+       "812": "812 - Hække",
+       "813": "813 - Buske",
+       "814": "814 - Bunddække",
+       "815": "815 - Stauder",
+       "816": "816 - Græsarealer",
+       "819": "819 - Øvrig beplantning"
+     }
+     }
+     }
+   },
+   "9": {
+   "9 - Projektudstyr": {
+     "91": {
+     "91 - Projektudstyr ARK": {}
+     },
+     "92": {
+     "92 - Projektudstyr KON": {}
+     },
+     "93": {
+     "93 - Projektudstyr VENT": {}
+     },
+     "94": {
+     "94 - Projektudstyr VVS": {}
+     },
+     "95": {
+     "95 - Projektudstyr EL": {}
+     },
+     "96": {
+     "96 - Projektudstyr LAND": {}
+     }
+   }
+     }
+ }
