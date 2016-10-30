@@ -463,7 +463,7 @@
       "54": {
         "54 - Luftarter (gas, trykluft, vakuum, damp)": {
           "541": {
-            "541 - Vandbehandlingsanlæg": {
+            "541 - Mekanisk udstyr": {
               "5411": "5411 - Overvågningsenheder",
               "5412": "5412 - Nødspærringsbokse",
               "5413": "5413 - Nødforsyningsenheder",
@@ -490,35 +490,184 @@
       },
       "55": {
         "55 - Køling": {
-          "551": "551 - Mekanisk udstyr",
-          "552": "552 - Kølegivere",
-          "553": "553 - Køleproducerende anlæg"
+          "551": {
+            "551 - Mekanisk udstyr": {
+              "5511": "5511 - Målearrangementer",
+              "5512": "5512 - Cirkulationspumper",
+              "5513": "5513 - Fordelerrør til køling",
+              "5514": "5514 - Køleveksler",
+              "5515": "5515 - Køleveksler",
+              "5516": "5516 - Beholder / tanke"
+            }
+          },
+          "552": {
+            "552 - Kølegivere": {
+              "5521": "5521 - Fordamperer",
+              "5522": "5522 - Køleflader",
+              "5523": "5523 - Fancoils",
+              "5524": "5524 - Kølebafler"
+            }
+          },
+          "553": {
+            "553 - Køleproducerende anlæg": {
+              "5531": "5531 - Kølecentraler",
+              "5532": "5532 - Chillere",
+              "5533": "5533 - Frikølere",
+              "5534": "5534 - Tørkølere ",
+              "5535": "5535 - Kølekompressorer "
+            }
+          }
         }
       },
       "56": {
         "56 - Varme": {
-          "561": "561 - Mekanisk udstyr",
-          "562": "562 - Varmegivere",
-          "563": "563 - Varmeproducerene anlæg "
+          "561": {
+            "561 - Mekanisk udstyr": {
+              "5631": "5631 - Varmeflade",
+              "5632": "5632 - Radiator",
+              "5633": "5633 - Gulvvarme",
+              "5634": "5634 - Strålevarmepanel ",
+              "5635": "5635 - Konvektor",
+              "5636": "5636 - Varmluftstæppe",
+              "5637": "5637 - Kaloriefere",
+              "5638": "5638 - Varmtvandsbeholder "
+            }
+          },
+          "562": {
+            "562 - Varmegivere": {
+              "5631": "5631 - Varmeflader",
+              "5632": "5632 - Radiatorer",
+              "5633": "5633 - Gulvvarme",
+              "5634": "5634 - Strålevarmepaneler ",
+              "5635": "5635 - Konvektorer",
+              "5636": "5636 - Varmluftstæpper",
+              "5637": "5637 - Varme kalorieferer"
+            }
+          },
+          "563": {
+            "563 - Varmeproducerende anlæg": {
+              "5531": "5531 - Gasfyr",
+              "5532": "5532 - Oliefyr",
+              "5533": "5533 - Pillefyr",
+              "5534": "5534 - Halmfyr "
+            }
+          }
         }
       },
       "57": {
         "57 - Ventilationsanlæg": {
-          "571": "571 - Kanaler",
-          "572": "572 - Anlæg, køle/varmeflader vekslere",
-          "573": "573 - Kanal tilbehør",
-          "574": "574 - Ventilatorer",
-          "575": "575 - Ventilationsarmaturer",
-          "576": "576 - Tilslutning til udstyr",
-          "577": "577 - Taghætter / gennemføringer",
-          "578": "578 - Kanalisolering"
+          "571": {
+            "571 - Kanaler": {
+              "5711": "5711 - Cirkulære Kanaler",
+              "5712": "5712 - Rektangulær kanaler",
+              "5713": "5713 - Flex kanaler"
+            }
+          },
+          "572": {
+            "572 - Anlæg, køle/varmeflader vekslere ": {
+              "5721": "5721 - Ventilatiosanlæg",
+              "5722": "5722 - Varmeflader",
+              "5723": "5723 - Køleflader",
+              "5724": "5724 - Væskekoblet vekslere",
+              "5725": "5725 - Varmegevinding",
+              "5726": "5726 - Varmevekslere",
+              "5727": "5727 - Befugterer",
+              "5728": "5728 - Affugterer’"
+            }
+          },
+          "573": {
+            "573 - Kanal tilbehør": {
+              "5731": "5731 - Lyddæmper",
+              "5732": "5732 - Flamme og røgspjæld",
+              "5733": "5733 - Brand og røgspjæld",
+              "5734": "5734 - Overtryksspjæld",
+              "5735": "5735 - Røgspjæld",
+              "5736": "5736 - Spjæld on/off",
+              "5737": "5737 - Volumenstrømsregulator",
+              "5738": "5738 - Filtre"
+            }
+          },
+          "574": {
+            "574 - Ventilatorer": {
+              "5741": "5741 - Ventilator",
+              "5742": "5742 - Axialventilator",
+              "5743": "5743 - Boksventilator",
+              "5744": "5744 - Kanalventilator",
+              "5745": "5745 - Processudsugningsventilator",
+              "5746": "5746 - Tag ventilator",
+              "5747": "5747 - Vådrumsventilator",
+              "5748": "5748 - Vægventilatorer"
+            }
+          },
+          "575": {
+            "575 - Ventilationsarmaturer": {
+              "5751": "5751 - Dyser",
+              "5752": "5752 - Fortrængningsarmaturer",
+              "5753": "5753 - Loftsarmaturer",
+              "5754": "5754 - Loftsarmaturer synlig montage",
+              "5755": "5755 - Renrumsarmaturer",
+              "5756": "5756 - Riste / Vægarmaturer",
+              "5757": "5757 - Indblæsningsposer",
+              "5758": "5758 - Kontrolventiler",
+              "5759": "5759 - Overtryksventiler"
+            }
+          },
+          "576": {
+            "576 - Armatur": {
+              "5761": "5761 - Emhætte",
+              "5762": "5762 - Punktsug",
+              "5763": "5763 - Kemkalieskabe",
+              "5764": "5764 - Stinskabe",
+              "5765": "5765 - Lafbænke",
+              "5766": "5766 - Sluser",
+              "5767": "5767 - Aftrækskasser ",
+              "5768": "5768 - Dekontaminatorer"
+            }
+          },
+          "577": {
+            "577 - Taghætter/gennemføringer": {
+              "5771": "5771 - Afkasthætter",
+              "5772": "5772 - Indtagshætter ",
+              "5773": "5773 - Afkastskorsten",
+              "5774": "5774 - Indtagsskorsten",
+              "5775": "5775 - Indgangsriste i vægge",
+              "5776": "5776 - Taggennemføring",
+              "5777": "5777 - Membrandgennemføringer "
+            }
+          },
+          "578": {
+            "578 - Kanalisolering": {
+              "5781": "5781 - Isolering Brand",
+              "5782": "5782 - Isolering Varme ",
+              "5783": "5783 - Isolering, Kondens",
+              "5784": "5784 - Isolering, Lyd"
+            }
+          }
         }
       },
       "58": {
         "58 - Sprinkleranlæg": {
-          "581": "581 - Mekanisk udstyr",
-          "582": "582 - Sprinklerdyser",
-          "583": "583 - Brandskabe"
+          "581": {
+            "581 - Tilbehør": {
+              "5811": "5811 - Tryktanke",
+              "5812": "5812 - Trykbeholderpumper",
+              "5813": "5813 - Alarmventiler",
+              "5814": "5814 - Flowswitche"
+            }
+          },
+          "582": {
+            "582 - Sprinkler dyser": {
+              "5821": "5821 - Pedant sprinkerdyser",
+              "5822": "5822 - Concealed pendant sprinklerdyser",
+              "5823": "5823 - Upright sprinklerdyser",
+              "5824": "5824 - Side wall sprinklerdyser"
+            }
+          },
+          "583": {
+            "583 - Brandskabe": {
+              "5831": "5821 - Slangevindere"
+            }
+          }
         }
       },
       "59": {
@@ -526,7 +675,14 @@
           "591": "591 - Metalrør i bygninger",
           "592": "592 - Flexible plastikrør i bygninger",
           "593": "593 - Hårde plastrør i bygninger",
-          "594": "594 - Statisk ventiler",
+          "594": {
+            "594 - Brandskabe": {
+              "5941": "5941 - Afspæringsventil",
+              "5942": "5942 - Strengreguleringsventil",
+              "5943": "5943 - Magnetventil",
+              "5944": "5944 - Sikkerhedsventil"
+            }
+          },
           "595": "595 - Dynamisk ventiler",
           "596": "596 - Motordrevne rørtilbehør",
           "597": "597 - Målere, filtre og øvrige",
@@ -540,73 +696,319 @@
     "6 - El- og mekaniske anlæg": {
       "60": {
         "60 - Terræn": {
-          "601": "601 - Ledninger",
-          "602": "602 - Belysning",
-          "603": "603 - Installation for anlæg under terræn",
-          "604": "604 - Installation for anlæg på terræn",
-          "605": "605 - Trafikstyring"
+          "601": {
+            "601 - Ledninger": {
+              "6011": "6011 - Luftledninger for højspændingsanlæg ",
+              "6012": "6012 - Ledninger i jord for højspændingsanlæg",
+              "6013": "6013 - Luftledninger for lavspændingsanlæg ",
+              "6014": "6014 - Ledninger i jord for lavspændingsanlæg ",
+              "6015": "6015 - Ledninger for elektronik- og svagstrømsanlæg"
+            }
+          },
+          "602": {
+            "602 - Belysning": {
+              "6021": "6021 - Gade- og vejbelysningsanlæg",
+              "6022": "6022 - Pladsbelysning",
+              "6023": "6023 - Park- og havebelysningsanlæg",
+              "6024": "6024 - Specialbelysning"
+            }
+          },
+          "603": {
+            "603 - Installation for anlæg under terræn ": {
+              "6031": "6031 - Jordelektrodeanlæg ",
+              "6032": "6032 - Olieudskilleranlæg",
+              "6033": "6033 - Pumpeanlæg i brønde",
+              "6034": "6034 - Registreringsanlæg for fedtudskiller",
+              "6035": "6035 - Varmekabelanlæg",
+              "6036": "6036 - Lækagedetekteringsanlæg",
+              "6037": "6037 - Frostdetekteringsanlæg"
+            }
+          },
+          "604": {
+            "604 - Installation for anlæg under terræn ": {
+              "6041": "6041 - Anlæg for sekundære bygninger ",
+              "6042": "6042 - Tankanlæg",
+              "6043": "6043 - Ladestander for EL-biler"
+            }
+          },
+          "605": {
+            "605 - Trafikstyring": {
+              "6051": "6051 - Trafiksignalanlæg",
+              "6052": "6052 - Faste skilte",
+              "6053": "6053 - Dynamiske skilte",
+              "6054": "6054 - Trafikdetektering",
+              "6055": "6055 - Bomanlæg"
+            }
+          }
         }
       },
       "61": {
         "61 - Føringsveje": {
-          "611": "611 - Fremføringsveje",
-          "612": "612 - Huller og udsparinger",
-          "613": "613 - Brand- og lydtætninger"
+          "611": {
+            "611 - Bakker / stiger": {
+              "6111": "6111 - Kabelstiger",
+              "6112": "6112 - Kabelbakker",
+              "6113": "6113 - Gitterbakker"
+            }
+          },
+          "612": {
+            "612 - Kanal": {
+              "6121": "6121 - Installationskanaler"
+            }
+          },
+          "613": {
+            "613 - Kabelrør": {
+              "6131": "6131 - Flexrør",
+              "6132": "6132 - Plastrør",
+              "6133": "6133 - Stålrør"
+            }
+          },
+          "614": {
+            "614 - Fiberbakker": {
+              "6141": "6141 - Fiberrunner"
+            }
+          },
+          "615": {
+            "615 - Brand- og lydstætninger": {
+              "6151": "6151 - Brandtætninger",
+              "6152": "6152 - Lydtætninger"
+            }
+          },
+          "616": {
+            "616 - Huller og udsparinger": {
+              "6161": "6161 - Huller",
+              "6162": "6162 - Udsparinger"
+            }
+          },
+          "619": {
+            "619 - Øvrige": {
+              "6191": "6191 - Dåser",
+              "6192": "6192 - Indstøbninger"
+            }
+          }
         }
       },
       "62": {
         "62 - Højspænding": {
-          "621": "621 - Forsyning",
-          "622": "622 - Fordeling",
-          "623": "623 - Installationer for apparater og maskiner",
-          "624": "624 - Sekundær højspænding"
+          "621": {
+            "621 - Forsyning": {
+              "6211": "6211 - Stikledninger",
+              "6212": "6212 - Transformere",
+              "6213": "6213 - Nød- og reserveforsyningsanlæg",
+              "6214": "6214 - Ens- og vekselretteranlæg",
+              "6215": "6215 - Fasekompenseringsanlæg",
+              "6216": "6216 - Frekvensomformeranlæg"
+            }
+          },
+          "622": {
+            "622 - Fordeling": {
+              "6221": "6221 - Hovedledninger",
+              "6222": "6222 - Koblingsudstyr"
+            }
+          },
+          "623": {
+            "623 -  Installationer for apparater og maskiner": {
+              "6231": "6231 - Produktions- og arbejdsmaskiner",
+              "6232": "6232 - Pumpeanlæg",
+              "6233": "6233 - Motorer"
+            }
+          },
+          "624": {
+            "624 -  Sekundær højspændin": {
+              "6241": "6241 - Belysningsarmatur",
+              "6242": "6242 - Prøvepladser"
+            }
+          }
         }
       },
       "63": {
         "63 - Lavspænding": {
-          "632": "632 - Fordeling",
-          "633": "633 - Installationer for apparater og maskiner",
-          "634": "634 - Termiske anlæg",
-          "635": "635 - Installationer for belysning",
-          "636": "636 - Belysningsarmaturer",
-          "637": "637 - Kraftinstallationer",
-          "638": "638 - Vedvarende energi - Intern forsyning"
+          "631": {
+            "631 - Forsyning - ekstern": {
+              "6311": "6311 - Stikledning/ Kanalskinner ",
+              "6312": "6312 - Transformeranlæg",
+              "6313": "6313 - Stationstavler",
+              "6314": "6314 - Nød- og reserveforsyningsanlæg/UPS",
+              "6315": "6315 - Fasekompenseringsanlæg",
+              "6316": "6316 - Frekvensomformeranlæg"
+            }
+          },
+          "632": {
+            "632 - Fordeling": {
+              "6321": "6321 - Hovedledninger / Kanalskinner",
+              "6322": "6322 - Hovedtavler",
+              "6323": "6323 - Fordelingstavler",
+              "6324": "6314 - Gruppetavler",
+              "6329": "6329 - Øvrige tavler"
+            }
+          },
+          "633": {
+            "633 - Installationer for apparater og maskiner": {
+              "6331": "6331 - Kedelanlæg",
+              "6332": "6332 - Køleanlæg",
+              "6333": "6333 - Produktions- og arbejdsmaskiner",
+              "6334": "6334 - Pumpeanlæg",
+              "6335": "6335 - Storkøkkenmaskinanlæg",
+              "6336": "6336 - Stor-/fælles vaskerianlæg",
+              "6337": "6337 - Ventilationsanlæg",
+              "6339": "6339 - Installationer for øvrige mekaniske anlæg"
+            }
+          },
+          "634": {
+            "634 - Termiske anlæg": {
+              "6341": "6341 - Termiske anlæg",
+              "6342": "6342 - El-varmeflade",
+              "6343": "6343 - Håndtørrer, håndklædetørrer",
+              "6344": "6344 - Ovnanlæg"
+            }
+          },
+          "635": {
+            "635 - Installationer for belysning": {
+              "6351": "6351 - Anlæg for almen belysning",
+              "6352": "6352 - Anlæg for sikkerhedsbelysning",
+              "6353": "6353 - Anlæg for lavvoltsbelydning",
+              "6354": "6354 - Anlæg for særbelysning",
+              "6355": "6355 - Lysstyringsanlæg"
+            }
+          },
+          "636": {
+            "636 - Belysningsarmaturer": {
+              "6361": "6361 - Armatur – almen belysning",
+              "6362": "6362 - Armatur – sikkerhedsbelysning",
+              "6363": "6363 - Armatur – special belysning"
+            }
+          },
+          "637": {
+            "637 - Kraftinstallationer": {
+              "6371": "6371 - Stikkontakter",
+              "6372": "6372 - Arbejdsstationer / Gulvbokse",
+              "6373": "6373 - AUdtag",
+              "6374": "6374 - Forsyning til brugsgenstande",
+              "6375": "6375 - Sengestuepaneler"
+            }
+          },
+          "638": {
+            "638 - Vedvarende energi - Intern forsyning": {
+              "6381": "6381 - Solcelleanlæg"
+            }
+          }
         }
       },
       "64": {
         "64 - Kommunikation og information": {
-          "641": "641 - Kommunikation",
-          "642": "642 - Information",
-          "643": "643 - Audio, video og antenne",
-          "644": "644 - IT-infrastruktur"
+          "641": {
+            "641 - Kommunikation": {
+              "6411": "6411 - Telefonanlæg",
+              "6412": "6412 - Radioanlæg",
+              "6413": "6413 - Dør- og porttelefoner"
+            }
+          },
+          "642": {
+            "642 - Information": {
+              "6421": "6421 - Optagetanlæg",
+              "6422": "6422 - Ringeanlæg",
+              "6423": "6423 - Ur-anlæg"
+            }
+          },
+          "643": {
+            "643 - Audio, video og antenne": {
+              "6431": "6431 - Højttaleranlæg",
+              "6432": "6432 - Mikrofonanlæg",
+              "6433": "6433 - Teleslyngeanlæg",
+              "6434": "6434 - Videoanlæg",
+              "6435": "6435 - Antenneanlæg",
+              "6436": "6436 - AV-anlæg"
+            }
+          },
+          "644": {
+            "644 - IT-infrastruktur": {
+              "6431": "6431 - Kabling-og X-felter",
+              "6432": "6432 - DAS – antenneanlæ",
+              "6433": "6433 - Positionerings system"
+            }
+          }
         }
       },
       "65": {
         "65 - Sikring": {
-          "651": "651 - Adgangssikring",
-          "652": "652 - Sikringsanlæg",
-          "653": "653 - Personsikring"
+          "651": {
+            "651 - Adgangssikring": {
+              "6511": "6431 - Automatisk indbrudsalarmanlæg (AIA-anlæg)",
+              "6512": "6432 - Automatisk adgangskontrolanlæg (ADK-anlæg)",
+              "6513": "6433 - Internt TV-overvågningsanlæg (ITV-anlæg)"
+            }
+          },
+          "652": {
+            "652 - Sikringsanlæg": {
+              "6521": "6521 - Automatisk brandalarmanlæg (ABA-anlæg)",
+              "6522": "6522 - Automatisk branddørlukningsanlæg (ABDL-anlæg)",
+              "6523": "6523 - Automatisk gasalarmsanlæg (AGA-anlæg",
+              "6524": "6524 - Automatisk rumslukningsanlæg (ARS-anlæg)",
+              "6525": "6525 - Automatisk vandslukningsanlæg (AVS-anlæg)",
+              "6526": "6526 - Automatisk brandventilationsanlæg (ABV-anlæg)"
+            }
+          },
+          "653": {
+            "653 - Sikringsanlæg": {
+              "6531": "6531 - Varslingsanlæg",
+              "6532": "6532 - Nødkaldeanlæg",
+              "6533": "6533 - Alarmanlæg i køle- og fryserum",
+              "6534": "6534 - Detektoranlæg for personsikring",
+              "6535": "6535 - Overfaldsalarm",
+              "6536": "6536 - Pstientkaldeanlæg"
+            }
+          }
         }
       },
       "66": {
         "66 - Bygningsautomation": {
-          "661": "661 - Managementsystemer",
-          "662": "662 - Central tilstandsstyring",
-          "663": "663 - Decentral tilstandsstyring"
+          "661": {
+            "661 - Managementsystemer": {
+              "6611": "6611 - BMS-anlæg"
+            }
+          },
+          "662": {
+            "662 - Central tilstandsstyrin": {
+              "6621": "6621 - CTS-anlæg",
+              "6622": "6622 - IBI-anlæg med central styring"
+            }
+          }
         }
       },
       "67": {
         "67 - Beskyttelse": {
-          "671": "671 - Overspændingsbeskyttelse",
-          "672": "672 - Udligningsforbindelser",
-          "673": "673 - Katodisk Beskyttelse",
-          "674": "674 - EMI"
+          "671": {
+            "671 - Overspændingsbeskyttelse": {
+              "6711": "6621 - Lyn beskyttelse"
+            }
+          },
+          "672": {
+            "672 - Udligningsforbindelser": {
+              "6721": "6621 - Hovedudligningsforbindelse",
+              "6722": "6622 - Lokal udligningsforbindeles uden jordforbindelse",
+              "6723": "6623 - Supplerende udligningsforbindelse"
+            }
+          }
         }
       },
       "68": {
         "68 - Person- og materialetransport": {
-          "681": "681 - Persontransport",
-          "682": "682 - Gods- og materialetransport"
+          "681": {
+            "681 - Persontransport": {
+              "6811": "6811 - Elevatorer",
+              "6812": "6812 - Lifte",
+              "6813": "6813 - Rullende trapper",
+              "6814": "6814 - Rullende fortove"
+            }
+          },
+          "682": {
+            "682 - Gods- og materialetransport": {
+              "6821": "6821 - Elevatorer",
+              "6822": "6822 - Lifte og sakseborde",
+              "6823": "6823 - Transportbånd",
+              "6824": "6824 - Kraner og taljer"
+            }
+          }
         }
       }
     }
