@@ -8,7 +8,8 @@
           "003": "003 - Generisk objekt VENT",
           "004": "004 - Generisk objekt VVS",
           "005": "005 - Generisk objekt EL",
-          "006": "006 - Generisk objekt LAND"
+          "006": "006 - Generisk objekt LAND",
+          "007": "007 - Generiske objekter ENTR"
         }
       },
       "02": {
@@ -822,9 +823,7 @@
           },
           "604": {
             "604 - Installation for anlæg under terræn ": {
-              "6041": "6041 - Anlæg for sekundære bygninger",
-              "6042": "6042 - Tankanlæg",
-              "6043": "6043 - Ladestander for EL-biler"
+              "6041": "6041 - Brugsgenstande"
             }
           },
           "605": {
@@ -908,12 +907,6 @@
               "6232": "6232 - Pumpeanlæg",
               "6233": "6233 - Motorer"
             }
-          },
-          "624": {
-            "624 -  Sekundær højspændin": {
-              "6241": "6241 - Belysningsarmatur",
-              "6242": "6242 - Prøvepladser"
-            }
           }
         }
       },
@@ -921,10 +914,10 @@
         "63 - Lavspænding": {
           "631": {
             "631 - Forsyning - ekstern": {
-              "6311": "6311 - Stikledning/ Kanalskinner",
+              "6311": "6311 - Stikledninger / Kanalskinner",
               "6312": "6312 - Transformeranlæg",
               "6313": "6313 - Stationstavler",
-              "6314": "6314 - Nød- og reserveforsyningsanlæg/UPS",
+              "6314": "6314 - Nød- og reserveforsyningsanlæg / UPS",
               "6315": "6315 - Fasekompenseringsanlæg",
               "6316": "6316 - Frekvensomformeranlæg"
             }
@@ -934,7 +927,8 @@
               "6321": "6321 - Hovedledninger / Kanalskinner",
               "6322": "6322 - Hovedtavler",
               "6323": "6323 - Fordelingstavler",
-              "6324": "6314 - Gruppetavler",
+              "6324": "6314 - Undertavler",
+              "6325": "6315 - Gruppetavler",
               "6329": "6329 - Øvrige tavler"
             }
           },
@@ -952,17 +946,16 @@
           },
           "634": {
             "634 - Termiske anlæg": {
-              "6341": "6341 - Termiske anlæg",
-              "6342": "6342 - El-varmeflade",
-              "6343": "6343 - Håndtørrer, håndklædetørrer",
-              "6344": "6344 - Ovnanlæg"
+              "6341": "6341 - El-varmeflade",
+              "6342": "6342 - Håndtørrer, håndklædetørrer",
+              "6343": "6343 - Ovnanlæg"
             }
           },
           "635": {
             "635 - Installationer for belysning": {
               "6351": "6351 - Anlæg for almen belysning",
-              "6352": "6352 - Anlæg for sikkerhedsbelysning",
-              "6353": "6353 - Anlæg for lavvoltsbelydning",
+              "6352": "6352 - Anlæg for lavvoltsbelysning",
+              "6353": "6353 - Anlæg for sikkerhedsbelysning",
               "6354": "6354 - Anlæg for særbelysning",
               "6355": "6355 - Lysstyringsanlæg"
             }
@@ -978,7 +971,7 @@
             "637 - Kraftinstallationer": {
               "6371": "6371 - Stikkontakter",
               "6372": "6372 - Arbejdsstationer / Gulvbokse",
-              "6373": "6373 - AUdtag",
+              "6373": "6373 - Udtag",
               "6374": "6374 - Forsyning til brugsgenstande",
               "6375": "6375 - Sengestuepaneler"
             }
@@ -1019,7 +1012,7 @@
           "644": {
             "644 - IT-infrastruktur": {
               "6431": "6431 - Kabling-og X-felter",
-              "6432": "6432 - DAS – antenneanlæ",
+              "6432": "6432 - DAS - antenneanlæg",
               "6433": "6433 - Positionerings system"
             }
           }
@@ -1036,16 +1029,16 @@
           },
           "652": {
             "652 - Sikringsanlæg": {
-              "6521": "6521 - Automatisk brandalarmanlæg (ABA-anlæg)",
-              "6522": "6522 - Automatisk branddørlukningsanlæg (ABDL-anlæg)",
-              "6523": "6523 - Automatisk gasalarmsanlæg (AGA-anlæg",
-              "6524": "6524 - Automatisk rumslukningsanlæg (ARS-anlæg)",
-              "6525": "6525 - Automatisk vandslukningsanlæg (AVS-anlæg)",
-              "6526": "6526 - Automatisk brandventilationsanlæg (ABV-anlæg)"
+              "6521": "6521 - Automatisk Brandalarm Anlæg (ABA-anlæg)",
+              "6522": "6522 - Automatiske Brand Dør Luknings anlæg (ABDL-anlæg)",
+              "6523": "6523 - Automatiske Gas Alarm anlæg (AGA-anlæg)",
+              "6524": "6524 - Automatiske Rum Sluknings anlæg (ARS-anlæg)",
+              "6525": "6525 - Automatisk Vand Sluknings anlæg (AVS-anlæg)",
+              "6526": "6526 - Automatiske Brand Ventilations - anlæg (ABV-anlæg)"
             }
           },
           "653": {
-            "653 - Sikringsanlæg": {
+            "653 - Personsikringer": {
               "6531": "6531 - Varslingsanlæg",
               "6532": "6532 - Nødkaldeanlæg",
               "6533": "6533 - Alarmanlæg i køle- og fryserum",
@@ -1075,14 +1068,14 @@
         "67 - Beskyttelse": {
           "671": {
             "671 - Overspændingsbeskyttelse": {
-              "6711": "6621 - Lyn beskyttelse"
+              "6711": "6721 - Lynbeskyttelse"
             }
           },
           "672": {
             "672 - Udligningsforbindelser": {
-              "6721": "6621 - Hovedudligningsforbindelse",
-              "6722": "6622 - Lokal udligningsforbindeles uden jordforbindelse",
-              "6723": "6623 - Supplerende udligningsforbindelse"
+              "6721": "6721 - Hovedudligningsforbindelse",
+              "6722": "6722 - Lokal udligningsforbindeles uden jordforbindelse",
+              "6723": "6723 - Supplerende udligningsforbindelse"
             }
           }
         }
