@@ -1,8 +1,8 @@
 {
   "0": {
-    "0 - Generiske bygningsdele": {
-      "00": {
-        "00 - Generiske objekter": {
+    "0 - Generiske objekter": {
+      "01": {
+        "01 - Generiske objekter ARK": {
           "001": "001 - Generisk objekt ARK",
           "002": "002 - Generisk objekt KON",
           "003": "003 - Generisk objekt VENT",
@@ -11,21 +11,73 @@
           "006": "006 - Generisk objekt LAND"
         }
       },
-      "01": {
-        "01 - Generiske bygningsdele": {
-          "011": "011 - Generiske vægge og fundamenter",
-          "012": "012 - Generiske gulv eller dæk",
-          "013": "013 - Generiske tage",
-          "014": "014 - Generiske åbninger",
-          "015": "015 - Generiske søjler og bjælker",
-          "016": "016 - Generiske lofter",
-          "017": "017 - Generiske trappe-og rampeelementer",
-          "018": "018 - Generiske værn og håndlister",
-          "019": "019 - Generiske vinduesfacadesystemer"
+      "02": {
+        "02 - Generiske objekter KON": {
+          "021": "021 - Eksisterende vægge og fundamenter",
+          "022": "022 - Eksisterende gulv eller dæk",
+          "023": "023 - Eksisterende tage",
+          "024": "024 - Eksisterende åbninger",
+          "025": "025 - Eksisterende søjler og bjælker",
+          "026": "026 - Eksisterende lofter",
+          "027": "027 - Eksisterende trappe-og rampeelementer",
+          "028": "028 - Eksisterende værn og håndlister",
+          "029": "029 - Eksisterende vinduesfacadesystemer"
         }
       },
-      "02": {
-        "02 - Eksisterende bygningsdele": {
+      "03": {
+        "03 - Generiske objekter VENT": {
+          "021": "021 - Eksisterende vægge og fundamenter",
+          "022": "022 - Eksisterende gulv eller dæk",
+          "023": "023 - Eksisterende tage",
+          "024": "024 - Eksisterende åbninger",
+          "025": "025 - Eksisterende søjler og bjælker",
+          "026": "026 - Eksisterende lofter",
+          "027": "027 - Eksisterende trappe-og rampeelementer",
+          "028": "028 - Eksisterende værn og håndlister",
+          "029": "029 - Eksisterende vinduesfacadesystemer"
+        }
+      },
+      "04": {
+        "04 - Generiske objekter VVS": {
+          "021": "021 - Eksisterende vægge og fundamenter",
+          "022": "022 - Eksisterende gulv eller dæk",
+          "023": "023 - Eksisterende tage",
+          "024": "024 - Eksisterende åbninger",
+          "025": "025 - Eksisterende søjler og bjælker",
+          "026": "026 - Eksisterende lofter",
+          "027": "027 - Eksisterende trappe-og rampeelementer",
+          "028": "028 - Eksisterende værn og håndlister",
+          "029": "029 - Eksisterende vinduesfacadesystemer"
+        }
+      },
+      "05": {
+        "05 - Generiske objekter EL": {
+          "021": "021 - Eksisterende vægge og fundamenter",
+          "022": "022 - Eksisterende gulv eller dæk",
+          "023": "023 - Eksisterende tage",
+          "024": "024 - Eksisterende åbninger",
+          "025": "025 - Eksisterende søjler og bjælker",
+          "026": "026 - Eksisterende lofter",
+          "027": "027 - Eksisterende trappe-og rampeelementer",
+          "028": "028 - Eksisterende værn og håndlister",
+          "029": "029 - Eksisterende vinduesfacadesystemer"
+        }
+      },
+      "06": {
+        "06 - Generiske objekter LAND": {
+          "021": "021 - Eksisterende vægge og fundamenter",
+          "022": "022 - Eksisterende gulv eller dæk",
+          "023": "023 - Eksisterende tage",
+          "024": "024 - Eksisterende åbninger",
+          "025": "025 - Eksisterende søjler og bjælker",
+          "026": "026 - Eksisterende lofter",
+          "027": "027 - Eksisterende trappe-og rampeelementer",
+          "028": "028 - Eksisterende værn og håndlister",
+          "029": "029 - Eksisterende vinduesfacadesystemer"
+        }
+      },
+      "07": {
+        "07 - Generiske objekter ENTR": {
           "021": "021 - Eksisterende vægge og fundamenter",
           "022": "022 - Eksisterende gulv eller dæk",
           "023": "023 - Eksisterende tage",
@@ -45,7 +97,8 @@
         "10 - Bygningsbasis, terræn": {
           "101": "101 - Forberedt grund",
           "102": "102 - Byggegrube inkl. afstivning",
-          "103": "103 - Spunsvægge"
+          "103": "103 - Spunsvægge",
+          "104": "104 - Byggeplads"
         }
       },
       "12": {
@@ -139,9 +192,9 @@
       },
       "26": {
         "26 - Altaner og altangange, primære bygningsdele": {
-          "261": "261 - Elementaltaner og altangange",
-          "262": "262 - Pladsstøbte altaner og altangange",
-          "263": "263 - Sammmensatte altaner og altangange"
+          "261": "261 - Elementaltaner, altangange",
+          "262": "262 - Pladsstøbte altaner, altangange",
+          "263": "263 - Sammmensatte altaner, altangange"
         }
       },
       "27": {
@@ -332,7 +385,7 @@
             }
           },
           "507": {
-            "507 - Udskiller ( Olie, fedt, benzin mv)": {
+            "507 - Sanitetstilslutninger": {
               "5071": "5071 - Gulvafløb",
               "5072": "5072 - Vaskerender",
               "5073": "5073 - Toiletter",
@@ -342,7 +395,7 @@
             }
           },
           "508": {
-            "508 - Udskiller ( Olie, fedt, benzin mv)": {
+            "508 - Tilbehør": {
               "5081": "5081 - Faskiner",
               "5082": "5082 - Højvandsslukke",
               "5083": "5083 - Brandhaner",
@@ -353,13 +406,18 @@
       },
       "51": {
         "51 - Logistik": {
-          "511": "511- Affalds og logistiksystemer"
+          "511": {
+            "511 - Affalds og logistiksystemer": {
+              "5111": "5111 - Affald",
+              "5112": "5112 - Logistik"
+            }
+          }
         }
       },
       "52": {
         "52 - Afløb og sanitet": {
           "521": {
-            "521 - Udskiller ( Olie, fedt, benzin mv)": {
+            "521 - Afløb o.lign tilbehør": {
               "5211": "5211 - Gulvafløb",
               "5212": "5212 - Specialafløb",
               "5213": "5213 - Drypkop",
@@ -371,13 +429,13 @@
           "522": {
             "522 - Toiletter og lign": {
               "5221": "5221 - Toilet",
-              "5222": "5222 - Bidetér",
+              "5222": "5222 - Bidet´er",
               "5223": "5223 - Urinaler",
               "5224": "5224 - Tørklosetter"
             }
           },
           "523": {
-            "523 - Vaske og haner": {
+            "523 - Vaske": {
               "5231": "5231 - Håndvask",
               "5232": "5232 - Køkkenvask",
               "5233": "5233 - Rengøringsvask",
@@ -388,7 +446,7 @@
             }
           },
           "524": {
-            "524 - Afløbstilslutning til udstyr": {
+            "524 - Afløbstilslutninger til udstyr": {
               "5242": "5241 - Kølediske",
               "5243": "5242 - Kondensafløb"
             }
@@ -416,7 +474,7 @@
             }
           },
           "528": {
-            "528 - Badekar og lign": {
+            "528 - Badekar og lign.": {
               "5272": "5272 - Badekar"
             }
           }
@@ -497,7 +555,7 @@
               "5513": "5513 - Fordelerrør til køling",
               "5514": "5514 - Køleveksler",
               "5515": "5515 - Køleveksler",
-              "5516": "5516 - Beholder / tanke"
+              "5516": "5516 - Beholdere/Tanke"
             }
           },
           "552": {
@@ -514,7 +572,7 @@
               "5532": "5532 - Chillere",
               "5533": "5533 - Frikølere",
               "5534": "5534 - Tørkølere ",
-              "5535": "5535 - Kølekompressorer "
+              "5535": "5535 - Kølekompressorer"
             }
           }
         }
@@ -526,7 +584,7 @@
               "5631": "5631 - Varmeflade",
               "5632": "5632 - Radiator",
               "5633": "5633 - Gulvvarme",
-              "5634": "5634 - Strålevarmepanel ",
+              "5634": "5634 - Strålevarmepanel",
               "5635": "5635 - Konvektor",
               "5636": "5636 - Varmluftstæppe",
               "5637": "5637 - Kaloriefere",
@@ -555,7 +613,7 @@
         }
       },
       "57": {
-        "57 - Ventilationsanlæg": {
+        "57 - Ventilation": {
           "571": {
             "571 - Kanaler": {
               "5711": "5711 - Cirkulære Kanaler",
@@ -564,7 +622,7 @@
             }
           },
           "572": {
-            "572 - Anlæg, køle/varmeflader vekslere ": {
+            "572 - Anlæg, køle/varmeflader vekslere": {
               "5721": "5721 - Ventilatiosanlæg",
               "5722": "5722 - Varmeflader",
               "5723": "5723 - Køleflader",
@@ -572,7 +630,7 @@
               "5725": "5725 - Varmegevinding",
               "5726": "5726 - Varmevekslere",
               "5727": "5727 - Befugterer",
-              "5728": "5728 - Affugterer’"
+              "5728": "5728 - Affugterer"
             }
           },
           "573": {
@@ -613,21 +671,21 @@
             }
           },
           "576": {
-            "576 - Armatur": {
+            "576 - Tilslutninger til udstyr": {
               "5761": "5761 - Emhætte",
               "5762": "5762 - Punktsug",
               "5763": "5763 - Kemkalieskabe",
               "5764": "5764 - Stinskabe",
               "5765": "5765 - Lafbænke",
               "5766": "5766 - Sluser",
-              "5767": "5767 - Aftrækskasser ",
+              "5767": "5767 - Aftrækskasser",
               "5768": "5768 - Dekontaminatorer"
             }
           },
           "577": {
             "577 - Taghætter/gennemføringer": {
               "5771": "5771 - Afkasthætter",
-              "5772": "5772 - Indtagshætter ",
+              "5772": "5772 - Indtagshætter",
               "5773": "5773 - Afkastskorsten",
               "5774": "5774 - Indtagsskorsten",
               "5775": "5775 - Indgangsriste i vægge",
@@ -638,7 +696,7 @@
           "578": {
             "578 - Kanalisolering": {
               "5781": "5781 - Isolering Brand",
-              "5782": "5782 - Isolering Varme ",
+              "5782": "5782 - Isolering Varme",
               "5783": "5783 - Isolering, Kondens",
               "5784": "5784 - Isolering, Lyd"
             }
@@ -646,9 +704,9 @@
         }
       },
       "58": {
-        "58 - Sprinkleranlæg": {
+        "58 - Sprinkling": {
           "581": {
-            "581 - Tilbehør": {
+            "581 - Mekanisk udstyr": {
               "5811": "5811 - Tryktanke",
               "5812": "5812 - Trykbeholderpumper",
               "5813": "5813 - Alarmventiler",
@@ -676,18 +734,56 @@
           "592": "592 - Flexible plastikrør i bygninger",
           "593": "593 - Hårde plastrør i bygninger",
           "594": {
-            "594 - Brandskabe": {
+            "594 - Statisk ventiler": {
               "5941": "5941 - Afspæringsventil",
               "5942": "5942 - Strengreguleringsventil",
               "5943": "5943 - Magnetventil",
-              "5944": "5944 - Sikkerhedsventil"
+              "5944": "5944 - Sikkerhedsventil",
+              "5945": "5945 - Udluftningsventiler",
+              "5946": "5946 - Aftapningsventiler",
+              "5947": "5947 - Kontraventiler",
+              "5948": "5948 - Zoneventiler"
             }
           },
-          "595": "595 - Dynamisk ventiler",
-          "596": "596 - Motordrevne rørtilbehør",
-          "597": "597 - Målere, filtre og øvrige",
-          "598": "598 - Rørisolering",
-          "599": "599 - Bæringer, konsoller, stativer, huller og udsparinger"
+          "595": {
+            "595 - Dynamisk Ventiler": {
+              "5951": "5951 - Cirkulationsventiler",
+              "5952": "5952 - Dynamsik strengreguleringsventiler",
+              "5953": "5953 - Trykdifferensregulatorer"
+            }
+          },
+          "596": {
+            "596 - Motordrevne rørtilbehør": {
+              "5961": "5961 - Motorventiler",
+              "5962": "5962 - Motordreven trykdifferensregulatorer"
+            }
+          },
+          "597": {
+            "597 - Målere, filtre og øvrige": {
+              "5971": "5971 - Filtre",
+              "5972": "5972 - Flowmålere",
+              "5973": "5973 - Energimålere",
+              "5974": "5974 - Termometre",
+              "5975": "5975 - Manometre",
+              "5976": "5976 - Kompensatorer",
+              "5977": "5977 - Renselemme",
+              "5978": "5978 - Koblingsdåser"
+            }
+          },
+          "598": {
+            "598 - Rørisolering": {
+              "5981": "5981 - Isolering, Brand",
+              "5982": "5982 - Isolering, Varme",
+              "5983": "5983 - Isolering, Kondens",
+              "5984": "5984 - Isolering, Lyd"
+            },
+            "599 - Bæringer, Konsoller, Stativer, Huller og Udsparinger": {
+              "5991": "5991 - Bæringer",
+              "5992": "5992 - Konsoller",
+              "5993": "5993 - Huller og hullukninger",
+              "5994": "5994 - Stativer"
+            }
+          }
         }
       }
     }
@@ -715,7 +811,7 @@
           },
           "603": {
             "603 - Installation for anlæg under terræn ": {
-              "6031": "6031 - Jordelektrodeanlæg ",
+              "6031": "6031 - Jordelektrodeanlæg",
               "6032": "6032 - Olieudskilleranlæg",
               "6033": "6033 - Pumpeanlæg i brønde",
               "6034": "6034 - Registreringsanlæg for fedtudskiller",
@@ -726,7 +822,7 @@
           },
           "604": {
             "604 - Installation for anlæg under terræn ": {
-              "6041": "6041 - Anlæg for sekundære bygninger ",
+              "6041": "6041 - Anlæg for sekundære bygninger",
               "6042": "6042 - Tankanlæg",
               "6043": "6043 - Ladestander for EL-biler"
             }
@@ -825,7 +921,7 @@
         "63 - Lavspænding": {
           "631": {
             "631 - Forsyning - ekstern": {
-              "6311": "6311 - Stikledning/ Kanalskinner ",
+              "6311": "6311 - Stikledning/ Kanalskinner",
               "6312": "6312 - Transformeranlæg",
               "6313": "6313 - Stationstavler",
               "6314": "6314 - Nød- og reserveforsyningsanlæg/UPS",
